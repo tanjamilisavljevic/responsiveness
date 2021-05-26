@@ -1,0 +1,47 @@
+
+
+
+@media only screen and (max-width: 479px ){
+    body {
+        background-color: #f84c29;
+    }   
+   
+}
+
+
+@media only screen and (min-width:480px) and (max-width: 1023px){
+    body {
+        background-color: #4aa96c;
+    }    
+    .first {
+        display:inline-block;
+        width: 66%;
+    }
+    .second {
+        display:inline-block;
+        width: 33%;
+    }
+    .third {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: #b6c9f0;
+     }
+     .first {
+         display: inline-block;
+         width: 33%;
+     }
+    .second {
+        display: inline-block;
+        width: 33%;
+    }
+    .third {
+        display: inline-block;
+        width: 33%;
+    }
+}
+
+
